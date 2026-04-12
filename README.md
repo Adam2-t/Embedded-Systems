@@ -1,5 +1,5 @@
 # Embedded-Systems
-Here are all of the Code and video/photo evidence of my Embedded Systems portfolio. 
+Here are all of the Code and video evidence of my Embedded Systems portfolio. 
 
 
 video evidence below
@@ -19,3 +19,9 @@ MAINTASK1.3 - https://uweacuk-my.sharepoint.com/:v:/r/personal/adam2_terry_live_
 MAINTASK1.4 - https://uweacuk-my.sharepoint.com/:v:/r/personal/adam2_terry_live_uwe_ac_uk/Documents/Embed%20Videos/IMG_3261.mov?csf=1&web=1&e=KozVr8&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbE1vZGUiOiJtaXMiLCJyZWZlcnJhbFZpZXciOiJwb3N0cm9sbC1jb3B5bGluayIsInJlZmVycmFsUGxheWJhY2tTZXNzaW9uSWQiOiJjZmU4NzAxOS0xNzQ3LTRiNjktODJkNS0xOWRiNmQ5NzQ3OTMifX0%3D
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+MAINTASK2 - https://uweacuk-my.sharepoint.com/:v:/r/personal/adam2_terry_live_uwe_ac_uk/Documents/Attachments/IMG_3264.mov?csf=1&web=1&e=BpD1tn&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbE1vZGUiOiJtaXMiLCJyZWZlcnJhbFZpZXciOiJwb3N0cm9sbC1jb3B5bGluayIsInJlZmVycmFsUGxheWJhY2tTZXNzaW9uSWQiOiI2NzE5NWE4MC1jMWIzLTQzZWEtYjJiYi1mODYxOWViYzY3YmMifX0%3D
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
