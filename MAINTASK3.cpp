@@ -30,8 +30,8 @@ void uartTask()
 
         switch (receivedChar) {
 
-            case '1' :
-            gasAlarm = !gasAlarm;
+            case '1' : // Gas being active/disabled
+            gasAlarm = !gasAlarm; 
 
             if (gasAlarm == true) {
             uartUsb.write("START GAS SIM\r\n", 15);
@@ -40,7 +40,7 @@ void uartTask()
             }
             break;
 
-            case '2' :
+            case '2' : // Gas alarm active/disabled
 
                 if(gasAlarm) {
                     uartUsb.write("GAS ALARM ACTIVE\r\n", 18);
@@ -49,7 +49,7 @@ void uartTask()
                 }
                 break;
                 
-            case '3' :
+            case '3' : // temperature alarm activation/disabled
 
                 if(tempAlarm) {
                     uartUsb.write("TEMP ALARM ACTIVE\r\n", 19);
@@ -58,7 +58,7 @@ void uartTask()
                 }
                 break;
                 
-            case '4' :
+            case '4' : // temperture sim begin and end
 
                 tempAlarm = !tempAlarm;
                 if (tempAlarm == true){
@@ -68,14 +68,14 @@ void uartTask()
                 }
                 break;
                 
-            case '5' :
+            case '5' : // alarm reset
 
                 gasAlarm = false;
                 tempAlarm = false;
                 uartUsb.write("ALL ALARMS RESET\r\n", 18);
                 break;
 
-            case '6' :
+            case '6' : // Active monitoring 
 
                 monitorModeActive = !monitorModeActive;
                 if (monitorModeActive == true){
@@ -88,13 +88,13 @@ void uartTask()
                 break;
             
             default: 
-                uartUsb.write("USE VALID KEYS FROM 1 TO 6\r\n", 28);
+                uartUsb.write("USE VALID KEYS FROM 1 TO 6\r\n", 28); //defult warning message
                 break;
         }
     }
 }
 
-void monitorCallBack()
+void monitorCallBack() // monitor warning messages used in case 6
 {
     uartUsb.write("--------------------\r\n", 22);
 
@@ -113,7 +113,7 @@ void monitorCallBack()
     uartUsb.write("--------------------\r\n", 22);
 }
 
-void printMessage()
+void printMessage() // menu
 {
     uartUsb.write("   Alarm system\r\n", 17);
     uartUsb.write("1 - GAS SIM ON/OFF\r\n", 20);
